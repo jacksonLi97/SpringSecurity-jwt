@@ -25,17 +25,17 @@
 
 ### 2.编写SysUser实体类继承UserDetails类，编写role类引用GrantedAuthority接口
 
-![image-20200806162229858](C:%5CUsers%5Clizhongjie%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200806162229858.png)
+![image-20200806162229858](https://github.com/jacksonLi97/SpringSecurity-jwt/blob/master/image/image-20200806162229858.png)
 
-![image-20200806162400109](C:%5CUsers%5Clizhongjie%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200806162400109.png)
+![image-20200806162400109](https://github.com/jacksonLi97/SpringSecurity-jwt/blob/master/image/image-20200806162400109.png)
 
 ### 3. 编写UserService
 
-> 继承UserDetailsService类![image-20200806162559701](C:%5CUsers%5Clizhongjie%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200806162559701.png)
+> 继承UserDetailsService类![image-20200806162559701](https://github.com/jacksonLi97/SpringSecurity-jwt/blob/master/image/image-20200806162559701.png)
 
 ### 4. 编写UserServiceImpl实现类，实现loadUserByUsername方法
 
-![image-20200806162805185](C:%5CUsers%5Clizhongjie%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200806162805185.png)
+![image-20200806162805185](https://github.com/jacksonLi97/SpringSecurity-jwt/blob/master/image/image-20200806162805185.png)
 
 ### 5. 验证用户名密码生成token
 
@@ -76,7 +76,7 @@ public class JwtAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 
 > controller/AuthController      login()
 
-![image-20200806164029078](C:%5CUsers%5Clizhongjie%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200806164029078.png)
+![image-20200806164029078](https://github.com/jacksonLi97/SpringSecurity-jwt/blob/master/image/image-20200806164029078.png)
 
 ### 6. 验证token信息
 
